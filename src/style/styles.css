@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .movies-page {
+    padding: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .movie-details-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .movie-details img {
+    width: 300px;
+    margin-right: 20px;
+  }
+  
+  .movie-cast ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .movie-cast li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .movie-cast img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .movie-cast div {
+    margin-left: 10px;
+  }
+  header img.logo {
+    width: 50px; /* Adjust the size of your logo */
+    height: auto;
+  }
+  /* src/style.css */
+/* src/style.css */
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../assets/h1.jpeg') no-repeat center center/cover;
+  position: relative;
+  color: rgb(107, 8, 8); /* Ensure text is visible on the dark image */
+}
+
+.overlay {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Add a dark overlay to improve text visibility */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-size: 1.1rem;
+  color: #141105; /* A yellow color for the links */
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
